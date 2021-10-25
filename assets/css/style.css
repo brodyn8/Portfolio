@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .games, .information, .contact, .pages, footer{
+.about, .services, .skills, .teams, .cardcarousel, .information, .contact, .pages, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -353,18 +353,18 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .games{
+.services, .teams, .cardcarousel{
     color:#fff;
     background: #111;
 }
 .services .title::before,
 .teams .title::before,
-.games .title::before{
+.cardcarousel .title::before{
     background: #fff;
 }
 .services .title::after,
 .teams .title::after,
-.games .title::after{
+.cardcarousel .title::after{
     background: #111;
     content: "Services";
 }
@@ -538,38 +538,40 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* games section styling */
-.games .title::after{
-    content: "Games";
+/* cardcarousel section styling */
+.cardcarousel .title::after{
+    content: "Lists";
 }
-.games .carousel .card{
+.cardcarousel .carousel .card{
     background: #222;
-    color: #fff
+    color: #fff;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.games .carousel .card:hover{
+.cardcarousel .carousel .card:hover{
     background: #007FFF;
 }
-.games .carousel .card .box{
+.cardcarousel .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #fff;
     transition: all 0.3s ease;
 }
-.games .carousel .card:hover .box{
+.cardcarousel .carousel .card:hover .box{
+    color: #fff;
     transform: scale(1.05);
 }
-.games .carousel .card .text{
+.cardcarousel .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.games .carousel .card img{
+.cardcarousel .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -577,7 +579,7 @@ section .title::after{
     border: 5px solid #007FFF;
     transition: all 0.3s ease;
 }
-.games .carousel .card:hover img{
+.cardcarousel .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
