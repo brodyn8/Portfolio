@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "MicroFPS v1.2",
+"productVersion": "1.2.0",
+"dataUrl": "MicroFPS v1.2 Build.data.unityweb",
+"wasmCodeUrl": "MicroFPS v1.2 Build.wasm.code.unityweb",
+"wasmFrameworkUrl": "MicroFPS v1.2 Build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.26f1"
+}
