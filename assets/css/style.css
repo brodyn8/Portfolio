@@ -701,6 +701,31 @@ section .title::after{
   color: #007FFF;
   background: none;
 }
+
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #007FFF;
+  border: 2px solid #007FFF;
+  transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+  color: #007FFF;
+  background: none;
+}
+
 /* footer section styling */
 footer{
     background: #111;
