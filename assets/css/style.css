@@ -16,14 +16,14 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #111;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #007FFF;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #fff;
 }
 
 /* all similar content styling codes */
@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .cardcarousel, .information, .contact, .pages, footer{
+.about, .services, .skills, .teams, .projects, .information, .contact, .pages, .resources, .games, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -353,18 +353,22 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .cardcarousel{
+.services, .teams, .resources, .projects, .games{
     color:#fff;
     background: #111;
 }
 .services .title::before,
 .teams .title::before,
-.cardcarousel .title::before{
+.resources .title::before,
+.projects .title::before,
+.games .title::after{
     background: #fff;
 }
 .services .title::after,
 .teams .title::after,
-.cardcarousel .title::after{
+.resources .title::after,
+.projects .title::after,
+.games .title::after{
     background: #111;
     content: "Services";
 }
@@ -538,11 +542,11 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* cardcarousel section styling */
-.cardcarousel .title::after{
-    content: "Lists";
+/* projects section styling */
+.projects .title::after{
+    content: "Projects";
 }
-.cardcarousel .carousel .card{
+.projects .carousel .card{
     background: #222;
     color: #fff;
     border-radius: 6px;
@@ -551,10 +555,10 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.cardcarousel .carousel .card:hover{
+.projects .carousel .card:hover{
     background: #007FFF;
 }
-.cardcarousel .carousel .card .box{
+.projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -562,16 +566,16 @@ section .title::after{
     color: #fff;
     transition: all 0.3s ease;
 }
-.cardcarousel .carousel .card:hover .box{
+.projects .carousel .card:hover .box{
     color: #fff;
     transform: scale(1.05);
 }
-.cardcarousel .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.cardcarousel .carousel .card img{
+.projects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -579,7 +583,139 @@ section .title::after{
     border: 5px solid #007FFF;
     transition: all 0.3s ease;
 }
-.cardcarousel .carousel .card:hover img{
+.projects .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #007FFF!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #007FFF!important;
+}
+
+/* resources section styling */
+.resources .title::after{
+    content: "Resources";
+}
+.resources .carousel .card{
+    background: #222;
+    color: #fff;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.resources .carousel .card:hover{
+    background: #007FFF;
+}
+.resources .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.resources .carousel .card:hover .box{
+    color: #fff;
+    transform: scale(1.05);
+}
+.resources .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.resources .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #007FFF;
+    transition: all 0.3s ease;
+}
+.resources .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #007FFF!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #007FFF!important;
+}
+
+/* games section styling */
+.games .title::after{
+    content: "Games";
+}
+.games .carousel .card{
+    background: #222;
+    color: #fff;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.games .carousel .card:hover{
+    background: #007FFF;
+}
+.games .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.games .carousel .card:hover .box{
+    color: #fff;
+    transform: scale(1.05);
+}
+.games .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.games .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #007FFF;
+    transition: all 0.3s ease;
+}
+.games .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{

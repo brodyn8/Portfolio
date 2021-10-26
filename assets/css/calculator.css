@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-tap-highlight-color: transparent;
+	background-color: #fff;
+	color: #212529;
+	font-family: "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
+	height: 100vh;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.legitRipple-ripple {
+	background-color: rgba(0, 0, 0, 0.1);
+	transition-duration: .15s, .9s;
+}
+
+.screen .legitRipple-ripple {
+	background-color: #1566C1;
+	z-index: 1;
+}
+
+#root {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+}
+
+#calculator {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+#calculator .cRow {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.screen {
+	align-content: space-between;
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+	justify-content: right;
+	padding-top: 16px;
+	text-align: right;
+}
+
+.screen #miniScreen {
+	color: #6c757d;
+	display: inline-block;
+	height: auto;
+	margin-bottom: auto;
+	min-height: 24px;
+	overflow: hidden;
+	padding: 0 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.screen #screen {
+	display: inline-block;
+	font-size: 36px;
+	height: auto;
+	margin-top: auto;
+	overflow: auto;
+	padding: 0px 16px 16px 16px;
+	transition: font-size .15s ease;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.cBtn {
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 26px;
+	line-height: inherit;
+	width: 100%;
+}
+
+.cBtn:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.cBtn.cLight {
+	background-color: #636363;
+	color: #ffffff;
+}
+
+.cBtn.cDark {
+	background-color: #434343;
+	color: #ffffff;
+}

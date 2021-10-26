@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Calculator | Brody Newell</title>
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/legit-ripple@1.1.0/dist/ripple.min.css">
+	<link rel="stylesheet" href="assets/css/calculator.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBT4MB7N3F">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MBT4MB7N3F');
+
+	</script>
+</head>
+
+<body>
+	<div id="root">
+		<div id="calculator">
+
+			<div class="cRow screen">
+				<div id="miniScreen" style="font-weight: bold;">&nbsp;</div>
+				<div id="screen"></div>
+			</div>
+
+			<div class="cRow">
+				<button class="cBtn cLight cOp" data-action="%">%</button>
+				<button class="cBtn cLight cOp" data-action="^">x<sup>y</sup></button>
+				<button class="cBtn cLight cNeg" data-action="+-">±</button>
+				<button class="cBtn cLight" data-action="Bks">⌫</button>
+			</div>
+
+			<div class="cRow">
+				<button class="cBtn cDark" data-action="7">7</button>
+				<button class="cBtn cDark" data-action="8">8</button>
+				<button class="cBtn cDark" data-action="9">9</button>
+				<button class="cBtn cLight cOp" data-action="/">÷</button>
+			</div>
+
+			<div class="cRow">
+				<button class="cBtn cDark" data-action="4">4</button>
+				<button class="cBtn cDark" data-action="5">5</button>
+				<button class="cBtn cDark" data-action="6">6</button>
+				<button class="cBtn cLight cOp" data-action="*">×</button>
+			</div>
+
+			<div class="cRow">
+				<button class="cBtn cDark" data-action="1">1</button>
+				<button class="cBtn cDark" data-action="2">2</button>
+				<button class="cBtn cDark" data-action="3">3</button>
+				<button class="cBtn cLight cOp" data-action="-">-</button>
+			</div>
+
+			<div class="cRow">
+				<button class="cBtn cDark" data-action="0">0</button>
+				<button class="cBtn cDark" data-action=".">.</button>
+				<button class="cBtn cLight cOp" data-action="=">=</button>
+				<button class="cBtn cLight cOp" data-action="+">+</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/legit-ripple@1.1.0/js/ripple.js"></script>
+	<script src="assets/js/calculatorbignumber.js"></script>
+	<script src="assets/js/calculator.js"></script>
+	<script src="assets/js/calculatorscreen.js"></script>
+	<script src="assets/js/calculatorkeyboardlistener.js"></script>
+	<script src="assets/js/calculatorindex.js"></script>
+
+</body>
+
+</html>
