@@ -272,9 +272,11 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
+/*
 .information .information-content .right{
     width: 55%;
 }
+*/
 .information .information-content .right .text{
     font-size: 25px;
     font-weight: 600;
