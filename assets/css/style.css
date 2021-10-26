@@ -263,9 +263,11 @@ section .title::after{
 .information .title::after{
     content: "Information";
 }
+/*
 .information .information-content .left{
     width: 45%;
 }
+*/
 .information .information-content .left img{
     height: 400px;
     width: 400px;
