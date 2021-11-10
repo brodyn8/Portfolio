@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #main_board{
@@ -120,7 +120,6 @@ div.board h3{
 }
 
 div.board p{
-  font-family: 'Poppins', sans-serif;
   margin-bottom: 0.3em;
 }
 
