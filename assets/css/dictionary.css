@@ -12,7 +12,7 @@ height: 100%;
 }
 
 body{
-    background: #;
+    background: #111;
     color: black;
     height: 100vh;
     display: flex;
@@ -26,8 +26,6 @@ body{
     width: 90%;
     height: 90vh;
     margin-top: 2em;
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 10px );
     border-radius: 10px;
     border: 2px solid #007FFF;
     padding: 2em;
