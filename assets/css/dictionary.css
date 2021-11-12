@@ -22,7 +22,7 @@ body{
 }
 
 #main_board{
-    background: #999;
+    background: #444;
     width: 90%;
     height: 90vh;
     margin-top: 2em;
@@ -78,7 +78,7 @@ form #input{
 
 
 div.board{
-    background: #333;
+    background: #555;
     padding: 1em;
     border-radius: 10px;
     box-shadow: #007FFF;
