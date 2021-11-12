@@ -12,8 +12,8 @@ height: 100%;
 }
 
 body{
-    background: linear-gradient(to right top, #0b0c0f, #21252e) no-repeat;
-    color: #111;
+    background: #;
+    color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body{
 }
 
 #main_board{
-    background: #111;
+    background: #fff;
     width: 90%;
     height: 90vh;
     margin-top: 2em;
