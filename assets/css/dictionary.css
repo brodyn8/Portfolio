@@ -19,6 +19,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
 }
 
 #main_board{
