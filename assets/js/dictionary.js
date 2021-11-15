@@ -65,7 +65,7 @@ getSearch.addEventListener('submit', (e) => {
           })
 
           // Create the list of definition
-          let getUl = document.createElement('li');
+          let getUl = document.createElement('ul');
           getMeta.shortdef.forEach(item => {
               let getLi = document.createElement('li');
               getLi.append(item);
