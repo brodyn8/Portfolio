@@ -1,4 +1,4 @@
-/*  import google fonts */
+/* ============================= Import Google Fonts ============================= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* ============================= Custom Scroll Bar ============================= */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,7 +26,7 @@ html{
     background: #fff;
 }
 
-/* all similar content styling codes */
+/* ============================= All Similar Content Styling Codes ============================= */
 section{
     padding: 100px 0;
 }
@@ -79,7 +79,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+/* ============================= Navbar Styling ============================= */
 .navbar{
     position: fixed;
     width: 100%;
@@ -128,7 +128,7 @@ section .title::after{
     color: #fff;
 }
 
-/* menu btn styling */
+/* ============================= Menu Button Styling =============================*/
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -164,7 +164,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* ============================= Home Section Styling ============================= */
 .home{
     display: flex;
     background: url(/assets/img/background.jpg);
@@ -215,7 +215,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* ============================= About Section Styling ============================= */
 .about .title::after{
     content: "About";
 }
@@ -259,7 +259,7 @@ section .title::after{
     background: none;
 }
 
-/* information section styling */
+/* ============================= Information Section Styling ============================= */
 .information .title::after{
     content: "Information";
 }
@@ -311,7 +311,7 @@ section .title::after{
     font-weight: 500;
 }
 
-/* pages section styling */
+/* ============================= Pages Section Styling ============================= */
 .pages{
     color:#fff;
     background: #111;
@@ -356,7 +356,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* services section styling */
+/* ============================= Services Section Styling ============================= */
 .services, .teams, .resources, .projects, .games{
     color:#fff;
     background: #111;
@@ -408,7 +408,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* ============================= Skills Section Styling ============================= */
 
 .skills .title::after{
     content: "Skills";
@@ -483,7 +483,7 @@ section .title::after{
     width: 80%;
 }
 
-/* teams section styling */
+/* ============================= Teams Section Styling =============================*/
 .teams .title::after{
     content: "Teams";
 }
@@ -546,7 +546,7 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* projects section styling */
+/* ============================= Projects Section Styling ============================= */
 .projects .title::after{
     content: "Projects";
 }
@@ -612,7 +612,7 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* resources section styling */
+/* ============================= Resources Section Styling ============================= */
 .resources .title::after{
     content: "Resources";
 }
@@ -678,7 +678,7 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* games section styling */
+/* ============================= Games Section Styling ============================= */
 .games .title::after{
     content: "Games";
 }
@@ -744,7 +744,7 @@ section .title::after{
     background: #007FFF!important;
 }
 
-/* contact section styling */
+/* ============================= Contact Section Styling ============================= */
 .contact .title::after{
     content: "Contact";
 }
@@ -866,7 +866,7 @@ section .title::after{
   background: none;
 }
 
-/* footer section styling */
+/* ============================= Footer Section Styling ============================= */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -882,7 +882,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* ============================= Responsive Media Query Start ============================= */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
