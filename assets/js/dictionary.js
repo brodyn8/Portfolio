@@ -1,4 +1,4 @@
-// declare variebles
+// declare variables
 let getInput = document.querySelector('#input');
 let btn = document.querySelector('form .btn');
 let getDiv = document.querySelector('.board');
@@ -65,7 +65,7 @@ getSearch.addEventListener('submit', (e) => {
           })
 
           // Create the list of definition
-          let getUl = document.createElement('ul');
+          let getUl = document.createElement('li');
           getMeta.shortdef.forEach(item => {
               let getLi = document.createElement('li');
               getLi.append(item);
