@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 *:focus {outline:none}
@@ -19,11 +20,10 @@ body{
     justify-content: center;
     align-items: flex-start;
     font-family: 'Times New Roman', Times, serif;
-    list-style-type: none;
 }
 
 #main_board{
-    background: #333;
+    background: rgb(20, 20, 20);
     width: 90%;
     height: 90vh;
     margin-top: 2em;
