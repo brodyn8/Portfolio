@@ -49,24 +49,10 @@ getSearch.addEventListener('submit', (e) => {
           getP.append(getMeta.fl);
           getDiv.append(getP);
 
-          // getAudio
-          let getSpeaker = document.createElement('div');
-          getSpeaker.classList.add('speaker');
-          getSpeaker.innerHTML = '&#128264;';
-          getDiv.append(getSpeaker);
-
-          let getAudioId = getMeta.hwi.prs[0].sound.audio;
-          let getLetter = getAudioId.charAt(0);
-
-          let getAudio = new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/' + getLetter + '/' + getAudioId +'.mp3');
-          let speaker = document.querySelector('.speaker');
-          speaker.addEventListener('click', () => {
-              getAudio.play();
-          })
 
           // Create the list of definition
           let getUl = document.createElement('ul');
-          getMeta.shortdef.forEach(item => {
+          getMeta.syn_list.forEach(item => {
               let getLi = document.createElement('li');
               getLi.append(item);
               getUl.append(getLi);
