@@ -23,7 +23,7 @@ getSearch.addEventListener('submit', (e) => {
 
     // Fetch the data from the internet
     async function myDic(){
-        let res = await fetch('https://dictionaryapi.com/api/v3/references/collegiate/json/' + getInput.value +'?key=a950bfe8-6215-44b7-9cbb-07bdaccbae30');
+        let res = await fetch('https://dictionaryapi.com/api/v3/references/thesaurus/json/' + getInput.value +'?key=48e0177b-25e4-4c9e-b72f-bc84210c2c27');
         let data = await res.json();
 
         // access to meta
